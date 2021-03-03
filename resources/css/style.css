@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: seashell;
+}
+
+h2, h3, h4, h5 {
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+header img {
+    height: 50px;
+    margin: 9px 10px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+nav a {
+    margin-left: 15px;
+    color: seashell;
+}
+
+.banner {
+    background-image: url("../images/img-mission-background.webp");
+    height: 700px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 69px;
+}
+
+.banner-text {
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    width: 100%;
+}
+
+.teas {
+    max-width: 1000px;
+    margin: 65px auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.teas img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-img {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.tea-img h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+.locations {
+    background-image: url("../images/img-locations-background.webp");
+    background-size: cover;
+    height: 500px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.locations h2 {
+    padding-top: 70px;
+    margin: 0;
+}
+
+.location-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    margin: 15px 30px;
+    opacity: 1;
+}
+
+.location h5 {
+    padding-top: 20px;
+}
+
+.align-left {
+    text-align: left;
+    margin: 20px;
+}
+
